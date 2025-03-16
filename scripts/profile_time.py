@@ -23,7 +23,7 @@ def profile_time():
         # Профілювання часу пошуку
         profiler = cProfile.Profile()
         total_time = 0
-        runs = 100  # Кількість спроб для усереднення
+        runs = 1000  # Кількість спроб для усереднення
         for _ in range(runs):
             key = random.randint(0, n)
             profiler.enable()
