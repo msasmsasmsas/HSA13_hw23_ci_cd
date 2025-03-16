@@ -86,6 +86,10 @@ print(avl.search_key(30))  # Output: None
 ## Expected Output
 
 - **Space Profile Plot**: A nearly linear graph, confirming O(n) space complexity.
-https://github.com/msasmsasmsas/HSA13_hw22_profiling/blob/main/scripts/profile_space.png
+  
+![profile_space](https://github.com/user-attachments/assets/620cf5f6-34d9-4df7-ad4b-d4bc2f54997c)
+
+
 - **Time Profile Plot**: A logarithmic curve (on a log-scale x-axis), confirming O(log n) time complexity for search operations.
 
+![profile_time](https://github.com/user-attachments/assets/5c1476c0-6b99-4381-83e9-22101caf8ba9)
