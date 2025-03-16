@@ -92,4 +92,5 @@ print(avl.search_key(30))  # Output: None
 
 - **Time Profile Plot**: A logarithmic curve (on a log-scale x-axis), confirming O(log n) time complexity for search operations.
 
-![profile_time](https://github.com/user-attachments/assets/5c1476c0-6b99-4381-83e9-22101caf8ba9)
+![profile_time](https://github.com/user-attachments/assets/16866810-dda2-4dc3-a450-1651875686e5)
+
