@@ -17,6 +17,9 @@ On every push or pull request to the `main` branch:
 
 You can see the latest status in the [Actions tab](https://github.com/msasmsasmsas/HSA13_hw23_ci_cd/actions).
 
+![github_action](https://github.com/user-attachments/assets/b0bc24cb-7f3a-426b-8201-18b1dca05a3b)
+
+
 
 # Balanced Binary Search Tree Project
 
