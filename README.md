@@ -1,6 +1,22 @@
-# HSA13_hw23_ci_cd 
+# HSA Homework: AVL Tree Profiling & CI/CD
 
---
+This project implements an AVL Tree and includes scripts for profiling memory usage and search time performance.
+
+### 📁 Structure
+- `balanced_binary_search_tree/`: AVL tree implementation
+- `scripts/`: Profiling scripts (`profile_space.py`, `profile_time.py`)
+- `tests/`: Pytest-based unit tests
+
+### ⚙️ CI/CD with GitHub Actions
+
+This project uses **GitHub Actions** for continuous integration.  
+On every push or pull request to the `main` branch:
+- Unit tests are automatically run with `pytest`
+- Profiling scripts are executed (`scripts/profile_*.py`)
+- All steps are visible in the **Actions** tab of the repository
+
+You can see the latest status in the [Actions tab](https://github.com/msasmsasmsas/HSA13_hw23_ci_cd/actions).
+
 
 # Balanced Binary Search Tree Project
 
