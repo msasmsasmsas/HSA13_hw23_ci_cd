@@ -7,6 +7,7 @@ def test_insert_and_search():
     for key in keys:
         avl.insert_key(key)
 
+
     for key in keys:
         node = avl.search_key(key)
         assert node is not None, f"Key {key} not found"

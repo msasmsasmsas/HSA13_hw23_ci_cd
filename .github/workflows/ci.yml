@@ -31,9 +31,9 @@ jobs:
 
     - name: Run profile_space.py
       run: |
-        python scripts/profile_space.py
+        PYTHONPATH=. python scripts/profile_space.py
 
     - name: Run profile_time.py
       run: |
-        python scripts/profile_time.py
+        PYTHONPATH=. python scripts/profile_time.py
 
